@@ -23,14 +23,14 @@ The model predicts `fare_amount` based on the following six input features:
 ```
 Roll_number.zip
 │
-├── nytaxi_tf_assignment_final.ipynb     # Main notebook (TensorFlow implementation)
+├── cs6847_assignment3.ipynb     # Main notebook (TensorFlow implementation)
 ├── README.md                            # This file
 ├── /plots                               # Folder containing loss curves, time comparison plots
 ├── /logs                                # TensorBoard logs for CPU/GPU/TPU runs
 ├── /tfrecords                           # TFRecord files generated from CSV
 │   ├── train.tfrecord
 │   └── test.tfrecord
-└── report.pdf / report.docx             # Full written report
+└── report.pdf                           # Full written report
 ```
 
 ---
@@ -165,21 +165,21 @@ learning_rate = 0.0005
 
 ---
 
-## **8. Expected Output**
+## ** Expected Output**
 
 At the end of the run, you should observe:
 
 * **Training loss decreasing** steadily per epoch.
-* **Validation loss stabilizing**, showing no overfitting.
 * **TensorBoard graph** visualizing full computation path.
 * **Plots** comparing:
 
   * Epoch time vs number of hidden layers
-  * Execution time for CPU vs GPU vs TPU
+  * Execution time for CPU vs GPU vs TPU per Epoch
+  * Execution time for CPU vs GPU vs TPU for full training
 
 ---
 
-## **9. Notes and Tips**
+## ** Notes and Tips**
 
 * Use **small subsets** of the dataset (e.g., first 1M rows) for faster testing.
 * TPU training requires the TFRecord input pipeline to be correctly configured.
@@ -188,9 +188,9 @@ At the end of the run, you should observe:
 
 ---
 
-## **10. Author and Acknowledgments**
+## ** Author**
 
-**Author:** Amar
+**Author:** Amar Kumar (MA24M002)
 **Institution:** IIT Madras
 **Department:** Mathematics (M.Tech — Industrial Mathematics & Scientific Computing)
 
