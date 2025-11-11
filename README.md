@@ -1,7 +1,7 @@
 # cs6847_assignment3
 The objective of the assignment is to understand Tensorflow and use it to create a model for New York Taxi dataset cab price prediction.
 
-## ** Project Overview**
+##  Project Overview
 
 This project implements a **neural network from scratch in TensorFlow (low-level API)** to predict taxi fares in New York City.
 The work demonstrates understanding of **TensorFlow as a data flow graph engine** by manually defining variables, operations, and training loops without using high-level frameworks such as **Keras** or **PyTorch**.
@@ -18,7 +18,7 @@ The model predicts `fare_amount` based on the following six input features:
 
 ---
 
-## ** File Structure**
+##  File Structure
 
 ```
 Roll_number.zip
@@ -35,7 +35,7 @@ Roll_number.zip
 
 ---
 
-## ** Requirements**
+##  Requirements
 
 ### **Software**
 
@@ -58,7 +58,7 @@ You only need to mount your Google Drive and set the dataset path.
 
 ---
 
-## ** Dataset Setup**
+##  Dataset Setup
 
 Download the **train.csv** and **test.csv** files from Kaggle:
 
@@ -88,7 +88,7 @@ DATASET_DIR = '/content/drive/MyDrive/NYTaxi'
 
 ---
 
-## ** How to Run the Notebook**
+##  How to Run the Notebook
 
 ### **Step 1: Open in Google Colab**
 
@@ -128,7 +128,7 @@ This shows:
 
 ---
 
-## ** Comparing Device Performance**
+## Comparing Device Performance
 
 The notebook contains benchmark cells to compare execution time using:
 
@@ -144,7 +144,7 @@ To test different runtimes:
 
 ---
 
-## ** Customization**
+## Customization
 
 You can modify these hyperparameters at the start of the notebook:
 
@@ -165,7 +165,7 @@ learning_rate = 0.0005
 
 ---
 
-## ** Expected Output**
+## Expected Output
 
 At the end of the run, you should observe:
 
@@ -179,7 +179,7 @@ At the end of the run, you should observe:
 
 ---
 
-## ** Notes and Tips**
+## Notes and Tips
 
 * Use **small subsets** of the dataset (e.g., first 1M rows) for faster testing.
 * TPU training requires the TFRecord input pipeline to be correctly configured.
@@ -188,7 +188,7 @@ At the end of the run, you should observe:
 
 ---
 
-## ** Author**
+##  Author
 
 **Author:** Amar Kumar (MA24M002)
 **Institution:** IIT Madras
