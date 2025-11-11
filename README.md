@@ -117,7 +117,7 @@ Run in a new cell:
 
 ```bash
 %load_ext tensorboard
-%tensorboard --logdir logs/
+%tensorboard --logdir /content/drive/MyDrive/NYTaxi/logs/fit
 ```
 
 This shows:
