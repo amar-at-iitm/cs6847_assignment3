@@ -1,7 +1,7 @@
 # cs6847_assignment3
 The objective of the assignment is to understand Tensorflow and use it to create a model for New York Taxi dataset cab price prediction.
 
-## **1. Project Overview**
+## ** Project Overview**
 
 This project implements a **neural network from scratch in TensorFlow (low-level API)** to predict taxi fares in New York City.
 The work demonstrates understanding of **TensorFlow as a data flow graph engine** by manually defining variables, operations, and training loops without using high-level frameworks such as **Keras** or **PyTorch**.
@@ -18,7 +18,7 @@ The model predicts `fare_amount` based on the following six input features:
 
 ---
 
-## **2. File Structure**
+## ** File Structure**
 
 ```
 Roll_number.zip
@@ -35,7 +35,7 @@ Roll_number.zip
 
 ---
 
-## **3. Requirements**
+## ** Requirements**
 
 ### **Software**
 
@@ -58,7 +58,7 @@ You only need to mount your Google Drive and set the dataset path.
 
 ---
 
-## **4. Dataset Setup**
+## ** Dataset Setup**
 
 Download the **train.csv** and **test.csv** files from Kaggle:
 
@@ -88,7 +88,7 @@ DATASET_DIR = '/content/drive/MyDrive/NYTaxi'
 
 ---
 
-## **5. How to Run the Notebook**
+## ** How to Run the Notebook**
 
 ### **Step 1: Open in Google Colab**
 
@@ -128,7 +128,7 @@ This shows:
 
 ---
 
-## **6. Comparing Device Performance**
+## ** Comparing Device Performance**
 
 The notebook contains benchmark cells to compare execution time using:
 
@@ -144,7 +144,7 @@ To test different runtimes:
 
 ---
 
-## **7. Customization**
+## ** Customization**
 
 You can modify these hyperparameters at the start of the notebook:
 
